@@ -1,0 +1,46 @@
+*}{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#container{
+    background-color: bisque;
+    width:1000px;
+        height: 500px;}
+#paisaje{
+   width:1000px;
+    height: 500px;
+    position: relative;
+    
+}
+#barco{
+  
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    z-index:  1;
+    background-image: url(imagenes/antena-terrestre-barco.png);
+    background-size: cover;
+}
+#mar{
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    background-image:url(imagenes/mar.jpg);
+    
+    
+        top:50%
+}
+#peces{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background-image:url(imagenes/dibujo-pez-zebra-ojos-saltones.png);
+    background-size:contain;
+    
+    
+    
+}
